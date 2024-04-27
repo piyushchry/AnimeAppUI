@@ -15,7 +15,7 @@ Future<String> getCategoryPictureApi({
   final response = await http.get(
     Uri.parse(baseUrl),
     headers: {
-      'X-MAL-CLIENT-ID': "fc55582b725fdf22f30a131b1008aa20",
+      'X-MAL-CLIENT-ID': "Your Client ID",
     },
   );
 
